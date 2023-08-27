@@ -27,6 +27,12 @@ const Counter = () => {
           >
             Increment 5
           </button>
+          <button
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none"
+            onClick={() => dispatch(incrementByValue(10))}
+          >
+            Increment 10
+          </button>
         </div>
         <div className="mb-2 text-center border border-emerald-500">
           <h2 className="text-xl font-semibold">{count}</h2>
@@ -44,6 +50,12 @@ const Counter = () => {
             onClick={() => dispatch(decrementByValue(5))}
           >
             Decrement 5
+          </button>
+          <button
+            className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 focus:outline-none"
+            onClick={() => dispatch(decrementByValue(10))}
+          >
+            Decrement 10
           </button>
         </div>
       </div>
