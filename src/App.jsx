@@ -1,11 +1,11 @@
+import Home from "./pages/Home";
 
 function App() {
-  
   return (
-   <>
-   <h1 className="text-2xl bg-purple-700 p-10">Redux</h1>
-   </>
-  )
+    <>
+      <Home />
+    </>
+  );
 }
 
-export default App
+export default App;
